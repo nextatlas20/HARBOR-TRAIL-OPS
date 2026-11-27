@@ -1,0 +1,99 @@
+{
+  "plan": "harbor-access-posture",
+  "summary": {
+    "active_trails": 3,
+    "scheduled_days": 7,
+    "ready_days": 2,
+    "followup_days": 5,
+    "planned_actions": 6,
+    "open_trails": 0,
+    "restricted_trails": 2,
+    "closed_trails": 1
+  },
+  "trails": [
+    {
+      "trail_id": "TR-101",
+      "trail_name": "Harbor Steps",
+      "zone": "waterfront",
+      "posture": "closed",
+      "days": [
+        {
+          "day": 1,
+          "state": "cleared",
+          "hazard": "low",
+          "observation_id": "OB-0001",
+          "actions": []
+        },
+        {
+          "day": 2,
+          "state": "open",
+          "hazard": "high",
+          "observation_id": "OB-0002",
+          "actions": [
+            "barricade",
+            "repair"
+          ]
+        },
+        {
+          "day": 3,
+          "state": "missing",
+          "hazard": null,
+          "observation_id": null,
+          "actions": [
+            "inspect"
+          ]
+        }
+      ]
+    },
+    {
+      "trail_id": "TR-205",
+      "trail_name": "Ridge Loop",
+      "zone": "hillside",
+      "posture": "restricted",
+      "days": [
+        {
+          "day": 1,
+          "state": "deferred",
+          "hazard": "medium",
+          "observation_id": "OB-0003",
+          "actions": [
+            "plan-review"
+          ]
+        },
+        {
+          "day": 2,
+          "state": "open",
+          "hazard": "low",
+          "observation_id": "OB-0004",
+          "actions": [
+            "monitor"
+          ]
+        }
+      ]
+    },
+    {
+      "trail_id": "TR-330",
+      "trail_name": "Market Spur",
+      "zone": "uptown",
+      "posture": "restricted",
+      "days": [
+        {
+          "day": 1,
+          "state": "cleared",
+          "hazard": "low",
+          "observation_id": "OB-0005",
+          "actions": []
+        },
+        {
+          "day": 2,
+          "state": "open",
+          "hazard": "medium",
+          "observation_id": "OB-0006",
+          "actions": [
+            "repair"
+          ]
+        }
+      ]
+    }
+  ]
+}
