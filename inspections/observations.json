@@ -1,0 +1,12 @@
+[
+  {"observation_id":"OB-0001","trail_id":"TR-101","day":1,"hazard":"low","status":"cleared","revision":1},
+  {"observation_id":"OB-0001","trail_id":"TR-101","day":1,"hazard":"low","status":"cleared","revision":2},
+  {"observation_id":"OB-0002","trail_id":"TR-101","day":2,"hazard":"high","status":"open","revision":1},
+  {"observation_id":"OB-0003","trail_id":"TR-205","day":1,"hazard":"medium","status":"deferred","revision":1},
+  {"observation_id":"OB-0004","trail_id":"TR-205","day":2,"hazard":"low","status":"open","revision":1},
+  {"observation_id":"OB-0005","trail_id":"TR-330","day":1,"hazard":"low","status":"cleared","revision":1},
+  {"observation_id":"OB-0006","trail_id":"TR-330","day":2,"hazard":"medium","status":"open","revision":1},
+  {"observation_id":"OB-0007","trail_id":"TR-410","day":1,"hazard":"high","status":"open","revision":1},
+  {"observation_id":"OB-0008","trail_id":"TR-101","day":9,"hazard":"high","status":"open","revision":1},
+  {"observation_id":"bad","trail_id":"TR-101","day":3,"hazard":"low","status":"open","revision":1}
+]

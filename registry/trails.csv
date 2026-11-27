@@ -1,0 +1,7 @@
+trail_id,trail_name,zone,inspection_days,active,revision
+TR-101,Harbor Steps,waterfront,3,yes,1
+TR-205,Ridge Loop,hillside,2,yes,1
+TR-205,Ridge Loop,hillside,2,yes,2
+TR-330,Market Spur,uptown,2,yes,1
+TR-410,Old Pier,waterfront,2,no,1
+bad,Ignored,waterfront,2,yes,9
